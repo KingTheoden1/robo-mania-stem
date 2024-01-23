@@ -7,7 +7,7 @@ const Brand = () => {
     <div className="robomania__brand section__padding">
       <div className="why-us-content">
         <h2 className='gradient__text'>Why Us</h2>
-        <p>Here you can explain why customers should choose your service or product, highlighting your unique selling points.</p>
+        <p>RoboMania STEM allows for an innovative and engaging learning experience that nurtures young minds in science, technology, engineering, and mathematics. Our cutting-edge curriculum, designed by experts, empowers students with practical skills and inspires a lifelong passion for STEM fields.</p>
       </div>
       <h2 className="gradient__text robomania__brand-title">Our Partners and Clients</h2> {/* Title added here */}
       <div className="robomania__brand-row">
