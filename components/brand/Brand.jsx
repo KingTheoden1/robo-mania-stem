@@ -5,32 +5,21 @@ import './brand.css';
 const Brand = () => {
   return (
     <div className="robomania__brand section__padding">
-      <div>
+      <h2 className="robomania__brand-title">Our Partners and Clients</h2> {/* Title added here */}
+      <div className="robomania__brand-row">
         <img src={tamu} alt="tamu" />
-      </div>
-      <div>
         <img src={agrilife} alt="agrilife" />
-      </div>
-      <div>
         <img src={prairieview} alt="prairieview" />
-      </div>
-      <div>
         <img src={aggiestem} alt="aggiestem" />
       </div>
-      <div>
+      <div className="robomania__brand-row">
         <img src={fourhclub} alt="fourhclub" />
-      </div>
-      <div>
         <img src={openbrick} alt="openbrick" />
-      </div>
-      <div>
         <img src={playoasis} alt="playoasis" />
-      </div>
-      <div>
         <img src={stemrichment} alt="stemrichment" />
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Brand
+export default Brand;
