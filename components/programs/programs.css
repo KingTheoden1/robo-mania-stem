@@ -10,6 +10,19 @@
     color: var(--color-text);
   }
 
+  .programs-title {
+    font-family: var(--font-family);
+    font-size: 50px;
+  }
+
+  .programs-subtitle {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: var(--font-family);
+    font-size: 20px;
+    padding: 2rem;
+  }
+
   .program-item {
     width: auto;
     height: auto;

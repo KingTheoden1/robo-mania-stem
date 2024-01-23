@@ -5,9 +5,11 @@ import './programs.css';
 const Programs = () => {
   return (
     <div className="programs">
-      <ProgramItem title="Coding Clubs" description="Engage in exciting coding challenges and learn programming in a fun, collaborative environment." image={codingclubs} link="/coding-clubs" />
+      <h2 className="gradient__text programs-title">Programs</h2>
+      <p className="programs-subtitle">Give your child an Academic Advantage!</p>
+      <ProgramItem title="Coding Clubs" description="Learn Computational Thinking (CT) and Computer Science (CS) Skills and Code Games and Animations." image={codingclubs} link="/coding-clubs" />
       <ProgramItem title="Robotics Clubs" description="Explore the fascinating world of robotics and develop hands-on skills in building and programming robots." image={roboticsclub} link="/coding-clubs" />
-      <ProgramItem title="Robotics Kit" description="Get your own robotics kit and start building innovative projects from the comfort of your home." image={roboticskit} link="/coding-clubs" />
+      <ProgramItem title="Robotics Kit" description="We use LEGO® style bricks with open-source hardware and software to make STEM education affordable and fun for all." image={roboticskit} link="/coding-clubs" />
       <ProgramItem title="Summer Camps" description="Join our summer camps for an immersive learning experience in STEM, coding, and robotics." image={summercamps} link="/coding-clubs" />
     </div>
   );
