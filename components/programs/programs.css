@@ -58,17 +58,29 @@
     background-color: #0056b3; /* Darker shade for hover effect */
   }
 
-/* Media Queries for smaller screens */
-/* Media Queries for smaller screens */
+/* Existing styles... */
+
 @media screen and (max-width: 768px) {
   .program-item {
-    flex-direction: column-reverse; /* Reorder elements: image below the button */
+    flex-direction: column; /* Stack elements vertically for all items */
+    text-align: center; /* Center-align text */
+    align-items: center; /* Center-align items */
   }
 
   .program-item img {
-    width: 100%; /* Adjust the width to prevent overflow */
+    width: 100%; /* Adjust the width to fit the container */
     margin-top: 15px; /* Space above the image */
   }
 
-  /* Adjust title, text, and button styles if needed */
+  /* Ensure the title, text, and button are centered */
+  .program-item h3,
+  .program-item p,
+  .program-item button {
+    text-align: center;
+  }
+
+  /* Remove specific styles for even items */
+  .program-item:nth-child(even) {
+    flex-direction: column;
+  }
 }
