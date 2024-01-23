@@ -83,6 +83,13 @@
     background-color: #0056b3; /* Darker shade for hover effect */
   }
 
+  .programs-title, .program-item h3 {
+    position: relative; /* Needed for positioning the pseudo-element */
+    padding-top: 20px; /* Add space for the line */
+  }
+  
+
+
 /* Existing styles... */
 
 @media screen and (max-width: 768px) {
