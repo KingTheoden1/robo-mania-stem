@@ -11,13 +11,8 @@ const Header = () => {
         <p>Where young minds ignite their passion for STEM through the exciting world of robotics and coding! Dive into a journey of discovery and innovation, as we offer hands-on experiences that transform curiosity into real-world skills, nurturing creativity, critical thinking, and a lifelong love for learning in the dynamic fields of science and technology.</p>
         
         <div className="robomania__header-content__input">
-          <input type="email" placeholder='Your Email Address'/>
           <button type='button'>About Us</button>
         </div>
-        {/*<div className="robomania__header-content__people">
-          <img src={people} alt='people'/>
-          <p>1,600 people requested access in the last 24 hours</p>
-  </div>*/}
 
       </div>
         <div className="robomania__header-image">
