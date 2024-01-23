@@ -5,12 +5,12 @@ import robomania from '../../assets/robomania.png'
 const Footer = () => {
   return (
     <div className='robomania__footer section__padding'>
-      <div className="robomania__footer-heading">
+      {/*<div className="robomania__footer-heading">
         <h1 className="gradient__text">Give your child an Academic Advantage!</h1>
       </div>
       <div className="robomania__footer-btn">
         <p>Learn More</p>
-      </div>
+  </div>*/}
 
       <div className="robomania__footer-links">
         <div className="robomania__footer-links_logo">
@@ -20,15 +20,13 @@ const Footer = () => {
         <div className="robomania__footer-links_div">
           <h4>Links</h4>
           <p>About Us</p>
-          <p>Summer Camps</p>
-          <p>After-School STEM Clubs</p>
+          <p>Policies</p>
           <p>Contact</p>
         </div>
         <div className="robomania__footer-links_div">
           <h4>Company</h4>
-          <p>Terms & Conditions</p>
-          <p>Policies</p>
           <p>Careers</p>
+          <p>Terms & Conditions</p>
           <p>Research</p>
         </div>
         <div className="robomania__footer-links_div">
