@@ -3,11 +3,22 @@
     flex-direction: column;
     align-items: center;
     padding: 20px;
+    background-color: var(--color-footer); /* Replace with the actual footer background color */
+  }
+
+  p {
+    color: var(--color-text);
+  }
+
+  .program-item {
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+    text-align: left;
   }
   
-  .program-item {
-    margin: 15px 0;
-    text-align: center;
+  .program-item:nth-child(even) {
+    flex-direction: row-reverse;
   }
   
   .program-item h3 {
@@ -17,6 +28,10 @@
   
   .program-item p {
     font-size: 1rem;
-    /* Additional styling as needed */
+  }
+  
+  .program-item img {
+    width: 150px; /* Adjust as needed */
+    margin: 0 15px;
   }
   

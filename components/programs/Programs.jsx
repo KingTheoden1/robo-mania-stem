@@ -12,14 +12,16 @@ const Programs = () => {
   );
 };
 
-const ProgramItem = ({ title, description }) => {
-  return (
-    <div className="program-item">
-      <h3>{title}</h3>
-      <p>{description}</p>
-      {/* Add CTA button or link if needed */}
-    </div>
-  );
-};
+const ProgramItem = ({ title, description, image }) => {
+    return (
+      <div className="program-item">
+        <img src={image} alt={title} />
+        <div>
+          <h3 className='gradient__text'>{title}</h3>
+          <p>{description}</p>
+        </div>
+      </div>
+    );
+  };
 
 export default Programs;
