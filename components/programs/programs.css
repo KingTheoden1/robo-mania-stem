@@ -11,10 +11,16 @@
   }
 
   .program-item {
+    width: auto;
+    height: auto;
     display: flex;
     align-items: center;
     margin: 15px 0;
     text-align: left;
+  }
+
+  .program-item div {
+    text-align: center; /* Center the content */
   }
   
   .program-item:nth-child(even) {
@@ -22,16 +28,47 @@
   }
   
   .program-item h3 {
-    font-size: 1.5rem;
+    font-size: 2rem;
     margin-bottom: 10px;
+    font-family: var(--font-family);
   }
   
   .program-item p {
-    font-size: 1rem;
+    font-size: 1.2rem;
+    font-family: var(--font-family);
   }
   
   .program-item img {
-    width: 150px; /* Adjust as needed */
-    margin: 0 15px;
+    width: 300px; /* Adjust as needed */
+    height: auto;
+    margin: 15px;
   }
   
+  .program-item button {
+    background-color: #007bff; /* Example button color */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .program-item button:hover {
+    background-color: #0056b3; /* Darker shade for hover effect */
+  }
+
+/* Media Queries for smaller screens */
+/* Media Queries for smaller screens */
+@media screen and (max-width: 768px) {
+  .program-item {
+    flex-direction: column-reverse; /* Reorder elements: image below the button */
+  }
+
+  .program-item img {
+    width: 100%; /* Adjust the width to prevent overflow */
+    margin-top: 15px; /* Space above the image */
+  }
+
+  /* Adjust title, text, and button styles if needed */
+}
