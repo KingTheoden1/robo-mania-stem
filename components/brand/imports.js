@@ -5,6 +5,7 @@ import aggiestem from '../../assets/aggiestem.png';
 import openbrick from '../../assets/openbrick.png';
 import playoasis from '../../assets/playoasis.png';
 import stemrichment from '../../assets/stemrichment.png';
+import fourhclub from '../../assets/4h-club.png';
 
 export {
     tamu,
@@ -14,4 +15,5 @@ export {
     openbrick,
     playoasis,
     stemrichment,
+    fourhclub,
 }

@@ -1,7 +1,7 @@
 import React from 'react';
 import './header.css';
-import people from '../../assets/people.png';
 import highlight from '../../assets/highlight.gif';
+{/*import people from '../../assets/people.png';*/}
 
 const Header = () => {
   return (
@@ -14,10 +14,10 @@ const Header = () => {
           <input type="email" placeholder='Your Email Address'/>
           <button type='button'>About Us</button>
         </div>
-        <div className="robomania__header-content__people">
+        {/*<div className="robomania__header-content__people">
           <img src={people} alt='people'/>
           <p>1,600 people requested access in the last 24 hours</p>
-        </div>
+  </div>*/}
 
       </div>
         <div className="robomania__header-image">

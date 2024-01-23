@@ -28,10 +28,10 @@ const Navbar = () => {
           <Menu />
         </div>
       </div>
-      <div className="robomania__navbar-sign">
+      {/*<div className="robomania__navbar-sign">
         <p>Sign In</p>
         <button type='button'>Sign Up</button>
-      </div>
+  </div>*/}
       <div className="robomania__navbar-menu">
         {toggleMenu
           ? <RiCloseLine color='#fff' size={27} onClick={() => setToggleMenu(false)} />
@@ -41,10 +41,10 @@ const Navbar = () => {
           <div className="robomania__navbar-menu_container scale-up-center">
             <div className="robomania__navbar-menu_container-links">
               <Menu />
-              <div className="robomania__navbar-menu_container-links-sign">
+              {/*<div className="robomania__navbar-menu_container-links-sign">
                 <p>Sign In</p>
                 <button type='button'>Sign Up</button>
-              </div>
+              </div>*/}
             </div>
           </div>
         )}
