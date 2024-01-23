@@ -1,9 +1,8 @@
-{/*import React from 'react';
+import React from 'react';
 import './header.css';
 import highlight from '../../assets/highlight.gif';
-{/*import people from '../../assets/people.png';*/}
 
-{/*const Header = () => {
+const Header = () => {
   return (
     <div className='robomania__header section__padding' id='home'>
       <div className="robomania__header-content">
@@ -22,4 +21,4 @@ import highlight from '../../assets/highlight.gif';
   )
 }
 
-export default Header */}
+export default Header

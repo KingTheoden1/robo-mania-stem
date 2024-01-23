@@ -1,6 +1,5 @@
 import React from 'react';
-import { Footer, Header } from './containers';
-import { Brand, Navbar } from './components';
+import { Navbar, Header, Brand, Footer } from './components';
 import './App.css';
 
 const App = () => {
