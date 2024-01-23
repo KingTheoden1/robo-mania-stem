@@ -3,6 +3,7 @@
     flex-direction: column;
     align-items: center;
     max-width: 100%;
+    background-color: white;
   }
   
   .robomania__brand-row {
@@ -25,9 +26,19 @@
     font-size: 24px; /* Adjust font size as needed */
     margin-bottom: 20px; /* Space between title and image rows */
     font-family: var(--font-family);
-    color: white;
   }
   
+  .why-us-content h2 {
+    text-align: center;
+    font-family: var(--font-family);
+  }
+  
+  .why-us-content p {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: var(--font-family);
+    padding: 2rem;
+  }
 
 /* Responsive Design for Larger Screens */
 @media (min-width: 768px) {
