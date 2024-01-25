@@ -1,5 +1,5 @@
 import React from 'react';
-import { tamu, agrilife, prairieview, aggiestem, fourhclub, openbrick, playoasis, stemrichment } from './imports';
+import { tamu, agrilife, prairieview, aggiestem, fourhclub, openbrick, playoasis, stemrichment } from '../imports';
 import './brand.css';
 
 const Brand = () => {

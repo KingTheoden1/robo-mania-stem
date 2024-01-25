@@ -1,5 +1,5 @@
 import React from 'react';
-import { codingclubs, roboticsclub, roboticskit, summercamps } from './imports';
+import { codingclubs, roboticsclub, roboticskit, summercamps } from '../../programs/imports';
 import './programs.css';
 
 const Programs = () => {
