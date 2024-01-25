@@ -1,6 +1,12 @@
 import React from 'react';
-import { Navbar, Header, Brand, Programs, Footer } from './components';
-import './App.css';
+
+import Navbar from './components/navbar/Navbar';
+import Footer from './components/footer/Footer';
+import Header from './components/home/header/Header'; // Corrected import path
+import Brand from './components/home/brand/Brand'; // Corrected import path
+import Programs from './components/home/programs/Programs'; // Corrected import path
+{/* import { Navbar, Header, Brand, Programs, Footer } from './components';
+import './App.css'; */}
 
 const App = () => {
   return (
