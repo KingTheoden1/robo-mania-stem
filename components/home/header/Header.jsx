@@ -1,6 +1,6 @@
 import React from 'react';
 import './header.css';
-import highlight from '../../assets/highlight.gif';
+import highlight from '../../../assets/highlight.gif';
 
 const Header = () => {
   return (
